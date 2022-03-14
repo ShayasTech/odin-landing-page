@@ -15,9 +15,52 @@ body {
     padding: 18px 72px;
 }
 
-.info {
+.info,
+.action {
     background-color: #ffffff;
-    padding: 18px 72px;
+    padding: 48px 72px;
+}
+
+.quote {
+    padding: 84px 72px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 72px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px
+}
+
+.action-container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 18px;
+    padding: 18px 64px;
+}
+
+blockquote {
+    width: 60%;
+    margin: 0 auto;
+    color: #1f2937;
+}
+
+cite {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    text-align: right;
+    color: #1f2937;
 }
 
 .logo h1 {
@@ -58,7 +101,7 @@ a,
     text-decoration: underline;
 }
 
-img {
+.right img {
     display: block;
     margin-left: 32px;
     width: 500px;
@@ -80,6 +123,24 @@ img {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.card p {
+    text-align: center;
+    width: 200px;
 }
 
 .footer {
